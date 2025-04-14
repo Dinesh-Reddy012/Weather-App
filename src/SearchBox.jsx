@@ -69,12 +69,11 @@ export default function SearchBox({updateInfo}) {
           onChange={handleChange}
           InputProps={{
             style: {
-              color: "white", // text inside the input box
-              // optional: to make background stand out
+              color: "white", 
             },
           }}
           InputLabelProps={{
-            style: { color: "white" }, // label color
+            style: { color: "white" }, 
           }}
         />
         <br />
